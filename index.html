@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="style.css">
+        <script src="ngg.js" defer></script>
+        <title>Number Guessing Game</title>
+    </head>
+
+    <body>
+        <header class="jumbotron jumbotron-fluid">
+            <h1>What's that Number?</h1>
+            <h2>a JS Guessing Game</h2>
+        </header>
+
+        <main>
+            <div>
+                <section>
+                    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+                    <h3>Let's Play!</h3>
+
+                    <div id="gameBoard">
+                        <label for="plyrGuess">Enter a guess: </label>
+                        <input type="text" id="playerGuess">
+                        <button id="playBtn">Submit Guess</button>
+                    </div>
+
+                    <div id="resultDiv">
+                        <p id="currentGuess"></p>
+                        <p id="lowOrHi"></p>
+                        <p id="prevGuesses"></p>
+                        <button id="resetBtn">Play Again?</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+    </body>
+
+</html>

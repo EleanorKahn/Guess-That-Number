@@ -1,0 +1,59 @@
+body {
+    background-color: lightsteelblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: midnightblue;
+}
+
+body {
+    line-height: 2;
+}
+
+#playBtn {
+    background-color: mediumslateblue;
+    border-style: bold, round;
+    border-color: lightskyblue;
+    border-radius: 7.5px;
+    padding: 5px;
+    color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#resetBtn {
+    border-radius: 7.5px;
+    border: solid mediumslateblue;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    font-weight: bold;
+
+}
+
+label {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#plyrGuess {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jumbotron {
+    background-color: aliceblue;
+}
+
+.navbar {
+    color: midnightblue;
+}
+
+
+
+
