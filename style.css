@@ -17,7 +17,14 @@ body {
     line-height: 2;
 }
 
-#playBtn {
+.container {
+    width: 50%;
+    border: 5px solid midnightblue;
+    padding: 10px;
+}
+
+#playBtn,
+#resetBtn {
     background-color: mediumslateblue;
     border-style: bold, round;
     border-color: lightskyblue;
@@ -28,14 +35,17 @@ body {
     font-weight: bold;
 }
 
-#resetBtn {
-    border-radius: 7.5px;
+#resetBtn:hover,
+#playBtn:hover {
+    background-color: aliceblue;
     border: solid mediumslateblue;
     padding: 5px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: aliceblue;
-    font-weight: bold;
+}
 
+#playBtn:disabled {
+    background-color: gray;
+    color: midnightblue;
+    border: black;
 }
 
 label {
@@ -53,6 +63,7 @@ label {
 .navbar {
     color: midnightblue;
 }
+
 
 
 
