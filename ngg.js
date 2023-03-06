@@ -69,8 +69,6 @@
       prevGuesses.textContent = 'Previous guesses: ';
       playerGuessField.disabled = false;
       playBtn.disabled = false;
-      resultDiv.style.backgroundColor = 'lightsteelblue';
-      resultDiv.style.borderColor = 'lightsteelblue';
       playerGuessField.value = '';
       currentGuess.textContent = '';
       lowOrHi.textContent = '';

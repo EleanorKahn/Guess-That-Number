@@ -1,6 +1,7 @@
 body {
-    background-color: lightsteelblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(45deg, rgb(175, 200, 216), ivory, aliceblue);
+    line-height: 2;
 }
 
 header {
@@ -13,14 +14,11 @@ h1, h2 {
     color: midnightblue;
 }
 
-body {
-    line-height: 2;
-}
-
 .container {
     width: 50%;
     border: 5px solid midnightblue;
     padding: 10px;
+    margin: auto;
 }
 
 #playBtn,
@@ -28,7 +26,7 @@ body {
     background-color: mediumslateblue;
     border-style: bold, round;
     border-color: lightskyblue;
-    border-radius: 7.5px;
+    border-radius: 5px;
     padding: 5px;
     color: midnightblue;
     font-family: 'Courier New', Courier, monospace;
@@ -52,17 +50,12 @@ label {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#plyrGuess {
+#playerGuess {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.jumbotron {
-    background-color: aliceblue;
-}
 
-.navbar {
-    color: midnightblue;
-}
+
 
 
 
